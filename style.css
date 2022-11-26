@@ -1,0 +1,400 @@
+*{
+  
+  box-sizing: border-box;
+}
+:root {
+    --text-color: #fffaeb;
+    --bg-cards: #67594e;
+    --bg-techs: #ffffff;
+    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Merriweather Sans', sans-serif;
+    
+  }
+
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(211deg, rgba(2,0,36,1) 0%, rgba(136,180,153,1) 62%, rgba(0,212,255,1) 100%);
+    color: var(--text-color);
+    margin: 40px;
+    display: flex;
+    
+   
+
+}
+#topo{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 20px;
+  width: 348px;
+  
+} 
+  
+#apresentação{
+  width: 295px;
+  height: 344px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--bg-cards);
+  border-radius: 14px;
+  text-align: center;
+  padding-block: 20px;
+}
+#apresentação:hover{
+background-color:#2e2a60;
+  
+}
+#apresentação h1{
+  font-size: 23px;
+  padding-top: 20px;
+}
+#apresentação h1:hover{
+  color:#9ca9ea ;
+  scale: 0.9;
+  opacity: 1;
+}
+#apresentação p:hover{
+  color: #9ca9ea ;
+  scale: 0.9;
+  opacity: 1;
+  
+
+
+}
+#apresentação img{
+  border-radius: 50%;
+  background: #ffffff;
+  padding: 2px;
+  width: 128px;
+  height: 128px;
+}
+#apresentação img:hover{
+scale: 1.1;
+background-color: #5ceb5c;
+}
+
+#cabeçalho{
+  width: 757px;
+  height: 86px;
+  display: flex;
+  justify-content: space-between;
+  align-items:initial;
+  padding: 0;
+  margin: 0;
+  background-color: var(--bg-cards);
+  border-radius: 14px;
+  padding-inline: 10px;
+}
+#cabeçalho:hover{
+  background-color: #2e2a60;
+}
+#cabeçalho h3:hover{
+  color: #9ca9ea;
+  scale: 0.9;
+  opacity: 1;
+}
+.container{
+  display: flex;
+  width: 757px;
+  gap: 30px;
+  margin-top: 30px;
+}
+#recent{
+  background-color: var(--bg-cards);
+  border-radius: 14px;
+  padding-left: 20px;
+  
+  
+}
+#recent:hover{
+  background-color: #2e2a60;
+}
+#recent p{
+  font-size: 14px;
+}
+#recent h3{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+#recent h3:hover{
+  color: #9ca9ea;
+  scale: 0.9;
+}
+#recent h3 a{
+  color: #ffff;
+    text-decoration: none;
+}
+#status{
+  display: flex;
+  gap: 30px;
+
+}
+#recent h4{
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  gap: 4px;
+  
+}
+#recent h4:hover{
+  scale: 0.9;
+  color: #9ca9ea;
+}
+#post{
+  display: flex;
+  background-color: var(--bg-cards);
+  width: 757px;
+  border-radius: 14px;
+  height: 86px;
+  margin-block: 30px;
+}
+#post:hover{
+  background-color: #2e2a60;
+}
+#post h1{
+  margin-left: 20px;
+  font-size: 23px;
+}
+#post h1:hover{
+  color: #9ca9ea;
+  scale:0.9;
+}
+#box{
+  background-color:var(--bg-cards);
+  border-radius: 14px;
+  width: 757px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  
+}
+#box:hover{
+  background-color: #2e2a60;
+}
+#box strong{
+  font-size: 19px;
+}
+#box strong:hover{
+  color: #9ca9ea;
+  scale: 0.9;
+}
+
+
+#box img{ 
+  border-radius: 50%;
+  background: #ffffff;
+  padding: 2px;
+  width: 128px;
+  height: 128px;
+  margin: 10px;
+}
+#box img:hover{
+  scale: 1.1;
+  background-color: #5ceb5c;
+
+}
+section{
+  display: flex;
+  gap: 20px;
+}
+#box p{
+  font-size: 11px;
+  color:#CB92B1 ;
+}
+#box span{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#page{
+  display: flex;
+  flex-direction: column;
+  width: 348px;
+}
+#ref{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-cards);
+  border-radius: 14px;
+}
+#ref:hover{
+  background-color: #2e2a60;
+}
+#ref ul{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 10px;
+}
+#ref li:hover{
+  scale: 0.9;
+  color: #9ca9ea;
+}
+#ref li{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  
+}
+#ref li a{
+  text-decoration: none;
+  color: var(--text-color);
+  cursor: pointer;
+}
+#ref li a:hover{
+  color: #9ca9ea;
+}
+#tech{
+  background-color: var(--bg-cards);
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  
+
+}
+#tech:hover{
+  background-color: #2e2a60;
+}
+h2{
+  text-align: left;
+  margin-left: 20px;
+}
+h2:hover{
+scale: 0.9;
+color: #9ca9ea;
+}
+
+#tech ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+
+}
+#tech li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-techs);
+  color: black;
+  text-transform: uppercase;
+  width: 114px;
+  padding: 9px 20px;
+  text-align: center;
+  border-radius: 30px;
+  font-weight: 700;
+  line-height: 13px;
+  
+}
+#tech li:hover{
+  scale: 0.9;
+  color: #9ca9ea;
+}
+#exp{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-cards);
+  border-radius: 14px;
+  
+}
+#exp:hover{
+  background-color: #2e2a60;
+}
+#exp ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding: 0;
+  width: max-content;
+  margin: auto;
+}
+#exp ul li{
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  text-align: center;
+  
+}
+#exp li{
+  list-style-type: disc;
+    display: list-item;
+    
+}
+#exp ul li strong{
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+#exp ul li strong:hover{
+  scale: 0.9;
+  color: #9ca9ea;
+}
+#exp ul li p{
+  font-size: 11px;
+  font-weight: normal;
+  text-align: center;
+}
+#exp ul li p:hover{
+  scale: 0.9;
+  color: #9ca9ea;
+}
+#education{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-cards);
+  border-radius: 14px;
+}
+#education:hover{
+  background-color: #2e2a60;
+}
+#education ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding: 0;
+  width: max-content;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#education ul li{
+  gap: 0;
+  text-align: left;
+
+}
+#education li{
+  list-style-type: disc;
+    display: list-item;
+  
+}
+
+
+#education ul li strong{
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+#education ul li:hover{
+  scale: 0.9;
+  color: #9ca9ea;
+}
+#education ul li p{
+  font-size: 11px;
+  font-weight: normal;
+  text-align: left;
+}
+
+#education ul li strong:hover{
+  scale: 0.9;
+  color: #9ca9ea;
+}
